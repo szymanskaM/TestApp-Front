@@ -1,0 +1,46 @@
+.mainContainer{
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    background-color: #E4E4E4;
+    height:100vh;
+    padding: 3px;
+}
+.mainTitle{
+    border: 4px groove #D9D9D9;
+    border-radius: 5px;;
+    background-color: #D9D9D9;
+    padding:15px;
+    margin-bottom: 8px;
+}
+.list{
+    background-color:white;
+    margin: 25px;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding:35px;
+}
+.caseName{
+    width:70%;
+}
+.rightEdit{
+    display: flex;
+    margin-left: 75%;
+    width:25%;
+}
+.addIcon{
+    height: 100px;
+    margin-top: 72vh;
+    position: fixed;
+    margin-left: 92%;
+}
+@media screen and (min-width: 640px) {
+    .caseName{width: 60%;}
+    .rightEdit{margin-left: 85%;
+    width:15%;}
+}
+@media screen and (min-width: 1024px) {
+    .caseName{width: 70%;}
+    .rightEdit{margin-left: 85%;
+        width:15%;}
+}

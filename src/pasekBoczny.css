@@ -1,0 +1,59 @@
+.pasekBoczny
+{	
+	height:100%;
+	top:0px;
+	position:fixed;
+	background-color: #A8BAD1;
+	width:100px;
+	float:left;
+	display:none;
+	margin-bottom: 10px;
+}
+.button {
+    border: none;
+    padding: 2% 5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .button1 {
+    background-color: white;
+    margin: 2px 2px;
+    color: black;
+    border: 2px solid #01214B;
+    width:95px;
+	display:none;
+  }
+@media screen and (min-width: 640px) {
+.pasekBoczny{
+	  width:80%;
+	  display:block;
+	  height:160px;
+	  padding:2% 10%;
+	  position:static;
+	  margin-bottom: 10px;}
+.button1{display:inline-block;
+	height:50px;
+	width:100%;}
+}
+.button1:hover {
+    margin: 2px 2px;
+  background-color: #01214B;
+  color: white;
+}
+@media screen and (min-width: 1024px) {
+.pasekBoczny{
+	  width:200px;
+	  padding:0%;
+	  display:block;
+	  height:100%;
+	  position:fixed;
+	  margin-top: 70px;}
+.button1{
+	  display:inline;
+	  height:70px;
+	  width:195px;
+	  margin-bottom: 0px;}
+}
